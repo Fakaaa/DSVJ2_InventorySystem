@@ -24,7 +24,6 @@ public class InventoryManager : MonoBehaviour
     }
 
     void SetItem(Item _item){
-        content.randomItem = _item;
-        content.getItem = true;
+        content.SetItemToList(ref _item);
     }
 }

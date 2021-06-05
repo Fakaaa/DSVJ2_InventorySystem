@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 151567991}
   - component: {fileID: 151567993}
   - component: {fileID: 151567992}
+  - component: {fileID: 151567994}
   m_Layer: 5
   m_Name: Equipment
   m_TagString: Untagged
@@ -159,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -475, y: 0}
+  m_AnchoredPosition: {x: -500, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &151567992
@@ -199,6 +200,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151567990}
   m_CullTransparentMesh: 0
+--- !u!114 &151567994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151567990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e974d6943c515f440929186fb083e0e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: {fileID: 1624318529}
+  helmet: {fileID: 529986379}
+  chestplate: {fileID: 1473737851}
+  boots: {fileID: 1500780218}
+  weapon: {fileID: 1015430973}
 --- !u!1 &155229481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,9 +1573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f82214e9ec2eaa349af16ef5ada026cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomItem: {fileID: 0}
-  getItem: 0
-  itemOfInstanciate: {fileID: 3077816079661650496, guid: 0aee2b9a6d498d14097ee424914f12a9,
+  itemOfInstanciate: {fileID: 1745666332407335112, guid: 0aee2b9a6d498d14097ee424914f12a9,
     type: 3}
 --- !u!1 &1631277553
 GameObject:
