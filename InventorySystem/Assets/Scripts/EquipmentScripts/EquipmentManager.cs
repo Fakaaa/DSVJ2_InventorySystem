@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EquipmentManager : MonoBehaviour
 {
-    [SerializeField] ContentManager content;
+    [SerializeField] InventoryManager inventory;
     [SerializeField] Button helmet;
     Item helmetItem;
     [SerializeField] Button chestplate;
@@ -14,12 +14,8 @@ public class EquipmentManager : MonoBehaviour
     Item bootsItem;
     [SerializeField] Button weapon;
     Item weaponItem;
-    void Start()
-    {
-        content.returnedItem += ReciveItem;
-    }
 
-    void ReciveItem(ref Item _itemIn){
+    public void ReciveItem(ref Item _itemIn){
         switch (_itemIn.itemType) {
             case Item.ItemType.Weapon:
                 weaponItem = _itemIn;
