@@ -5,7 +5,16 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Item", menuName = "Item")]
 public class Item : ScriptableObject
 {
+    public enum ItemType{
+        Sword,
+        Chestplate,
+        Boots,
+        Helmet
+    }
     public new string name;
+    public ItemType itemType;
     public string description;
     public Sprite icon;
+    public float damage;
+    public float armor;
 }
