@@ -8,7 +8,7 @@ public class EquipmentPlace : MonoBehaviour, IPointerClickHandler
 {
     public delegate void ItemPlace(ref Item _itemIn);
     public ItemPlace itemPlace;
-    Item itemAtPlace;
+    Item itemAtPlace = null;
     Button itemPlaceButton;
     [SerializeField] Sprite defaultIcon;
 
@@ -19,9 +19,11 @@ public class EquipmentPlace : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData pointerEventData){
         if (pointerEventData.button == PointerEventData.InputButton.Left) {
-            itemPlace?.Invoke(ref itemAtPlace);
-            itemPlaceButton.image.sprite = defaultIcon;
-            itemAtPlace = null;
+            if(itemAtPlace != null){
+                itemPlace?.Invoke(ref itemAtPlace);
+                itemPlaceButton.image.sprite = defaultIcon;
+                itemAtPlace = null;
+            }
         }
     }
 
