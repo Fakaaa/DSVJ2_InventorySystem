@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ItemManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler
+public class ItemManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public Item item;
     [HideInInspector] public bool isGetItem = false;
@@ -16,6 +16,11 @@ public class ItemManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
     public delegate void ReturnItem();
     public ReturnItem returnItem;
 
+    public delegate void HoverItemIn(ref Item itemHover);
+    public delegate void HoverItemOut();
+    public static HoverItemIn isMouseHoveringEnter;
+    public static HoverItemOut isMouseHoveringExit;
+
     public void OnPointerClick(PointerEventData pointerEventData){
         if (pointerEventData.button == PointerEventData.InputButton.Left) {
             isReturnData = true;
@@ -25,7 +30,12 @@ public class ItemManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
 
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
-        Debug.Log("Uwu");
+        isMouseHoveringEnter?.Invoke(ref item);
+    }
+
+    public void OnPointerExit(PointerEventData pointerEventData)
+    {
+        isMouseHoveringExit?.Invoke();
     }
 
     public void UpdateData(){
