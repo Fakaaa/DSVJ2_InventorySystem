@@ -136,8 +136,10 @@ MonoBehaviour:
   item: {fileID: 0}
   isGetItem: 0
   imSetItem: 0
+  isReturnData: 0
   itemName: {fileID: 4855046711572259164}
   itemImage: {fileID: 6308297062463229395}
+  panelObject: {fileID: 0}
 --- !u!1 &4103314222992373039
 GameObject:
   m_ObjectHideFlags: 0

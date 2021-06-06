@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ItemManager : MonoBehaviour, IPointerClickHandler
+public class ItemManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler
 {
     public Item item;
     [HideInInspector] public bool isGetItem = false;
@@ -21,6 +21,11 @@ public class ItemManager : MonoBehaviour, IPointerClickHandler
             isReturnData = true;
             returnItem?.Invoke();
         }
+    }
+
+    public void OnPointerEnter(PointerEventData pointerEventData)
+    {
+        Debug.Log("Uwu");
     }
 
     public void UpdateData(){
