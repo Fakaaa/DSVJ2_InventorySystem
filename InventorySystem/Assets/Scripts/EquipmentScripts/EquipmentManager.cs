@@ -6,34 +6,52 @@ using UnityEngine.UI;
 public class EquipmentManager : MonoBehaviour
 {
     [SerializeField] InventoryManager inventory;
-    [SerializeField] Button helmet;
+    [SerializeField] Button helmetButton;
     Item helmetItem;
-    [SerializeField] Button chestplate;
+    [SerializeField] Button chestplateButton;
     Item chestplateItem;
-    [SerializeField] Button boots;
+    [SerializeField] Button bootsButton;
     Item bootsItem;
-    [SerializeField] Button weapon;
+    [SerializeField] Button weaponButton;
     Item weaponItem;
 
     public void ReciveItem(ref Item _itemIn){
         switch (_itemIn.itemType) {
             case Item.ItemType.Weapon:
-                weaponItem = _itemIn;
-                weapon.image.sprite = _itemIn.icon;
+
+                ChangeData(ref _itemIn, ref weaponItem, ref weaponButton);
+
             break;
             case Item.ItemType.Helmet:
-                helmetItem = _itemIn;
-                helmet.image.sprite = _itemIn.icon;
+
+                ChangeData(ref _itemIn, ref helmetItem, ref helmetButton);
+
             break;
             case Item.ItemType.Chestplate:
-                chestplateItem = _itemIn;
-                chestplate.image.sprite = _itemIn.icon;
+
+                ChangeData(ref _itemIn, ref chestplateItem, ref chestplateButton);
+
             break;
             case Item.ItemType.Boots:
-                bootsItem = _itemIn;
-                boots.image.sprite = _itemIn.icon;
+
+                ChangeData(ref _itemIn, ref bootsItem, ref bootsButton);
+
             break;
         }
     }
 
+    void ChangeData(ref Item _itemIn, ref Item _localItem, ref Button _button){
+        if(_localItem == null){
+            _localItem = _itemIn;
+            _button.image.sprite = _itemIn.icon;
+        }
+        else if(_localItem == _itemIn){
+            inventory.SetItem(_itemIn);
+        }
+        else{
+            inventory.SetItem(_localItem);
+            _localItem = _itemIn;
+            _button.image.sprite = _itemIn.icon;
+        }
+    }
 }

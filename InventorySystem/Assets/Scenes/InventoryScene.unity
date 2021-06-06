@@ -213,10 +213,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 1984852638}
-  helmet: {fileID: 529986379}
-  chestplate: {fileID: 1473737851}
-  boots: {fileID: 1500780218}
-  weapon: {fileID: 1015430973}
+  helmetButton: {fileID: 529986379}
+  chestplateButton: {fileID: 1473737851}
+  bootsButton: {fileID: 1500780218}
+  weaponButton: {fileID: 1015430973}
 --- !u!1 &155229481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,13 +2077,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a6025b4e2207b45872ff68afadceac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  equipment: {fileID: 151567994}
   content: {fileID: 1624318529}
   itemsList:
   - {fileID: 11400000, guid: cdee168a51faf92428833c0e0bc515ad, type: 2}
   - {fileID: 11400000, guid: ee6be6e381351b7478f11d554b4513db, type: 2}
   - {fileID: 11400000, guid: 63b65c70ac842424093644b0be6f6085, type: 2}
   - {fileID: 11400000, guid: 50b22a92492645044a64445a49d92d03, type: 2}
-  equipment: {fileID: 151567994}
 --- !u!1 &2105291821
 GameObject:
   m_ObjectHideFlags: 0

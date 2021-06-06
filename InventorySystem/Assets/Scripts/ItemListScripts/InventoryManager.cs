@@ -28,7 +28,7 @@ public class InventoryManager : MonoBehaviour
         SetItem(itemsList[random]);
     }
 
-    void SetItem(Item _item){
+    public void SetItem(Item _item){
         content.SetItemToList(ref _item);
     }
 
