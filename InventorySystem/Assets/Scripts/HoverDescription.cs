@@ -13,12 +13,16 @@ public class HoverDescription : MonoBehaviour
     [SerializeField] Text itemDurability;
     [SerializeField] Text itemLvlRequirement;
     private Vector3 mousePosition;
+    [SerializeField] private float offsetMouseToPanel;
+
+    private RectTransform transformPanel;
 
     private void Start()
     {
         ItemManager.isMouseHoveringEnter += ActivatePanel;
         ItemManager.isMouseHoveringExit += DeactivePanelHover;
 
+        transformPanel = panelHover.GetComponent<RectTransform>();
         DeactivePanelHover();
     }
     private void OnDisable()
@@ -41,8 +45,12 @@ public class HoverDescription : MonoBehaviour
     {
         mousePosition = Input.mousePosition;
 
-        panelHover.transform.position = new Vector2(mousePosition.x - (panelHover.GetComponent<RectTransform>().rect.xMax * 0.8f),
-            mousePosition.y + (panelHover.GetComponent<RectTransform>().rect.yMin * 0.8f));
+        if(mousePosition.y > (Screen.height / 2))
+            panelHover.transform.position = new Vector2(mousePosition.x - (transformPanel.rect.xMax * offsetMouseToPanel), mousePosition.y + (transformPanel.rect.yMin * offsetMouseToPanel));
+        else if(mousePosition.y < (Screen.height / 2))
+            panelHover.transform.position = new Vector2(mousePosition.x - (transformPanel.rect.xMax * offsetMouseToPanel), mousePosition.y + (transformPanel.rect.yMax * offsetMouseToPanel));
+
+        Debug.Log(mousePosition);
     }
 
     public void ActivatePanel(ref Item itemHover)

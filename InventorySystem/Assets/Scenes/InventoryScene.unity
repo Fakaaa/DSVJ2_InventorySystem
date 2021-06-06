@@ -298,8 +298,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1148840241}
   m_HandleRect: {fileID: 1148840240}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.99999976
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -671,7 +671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 13.160004, y: -10.96}
+  m_AnchoredPosition: {x: 13.159973, y: -10.959991}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &557063619
@@ -848,7 +848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.745283, g: 0.5417507, b: 0.024608415, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -891,6 +891,7 @@ MonoBehaviour:
   itemWeight: {fileID: 2058842543}
   itemDurability: {fileID: 412500625}
   itemLvlRequirement: {fileID: 1731724338}
+  offsetMouseToPanel: 2.6
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,8 +2287,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1190904466}
   m_HandleRect: {fileID: 1190904465}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.60999995
+  m_Value: 0.99999976
+  m_Size: 0.6099999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
