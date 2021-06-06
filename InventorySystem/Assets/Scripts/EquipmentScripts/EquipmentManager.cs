@@ -44,6 +44,6 @@ public class EquipmentManager : MonoBehaviour
     }
 
     void GetItemToPlace(ref Item _itemIn){
-        inventory.SetItem(_itemIn);
+        inventory.ReciveItemToInventory(_itemIn);
     }
 }

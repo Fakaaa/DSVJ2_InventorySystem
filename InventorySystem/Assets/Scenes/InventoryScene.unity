@@ -350,6 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 359865882}
+  - component: {fileID: 359865883}
   m_Layer: 0
   m_Name: ItemGenerator
   m_TagString: Untagged
@@ -371,6 +372,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &359865883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359865881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8063ff67269dce94099eff82159367f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 1984852638}
+  itemsList:
+  - {fileID: 11400000, guid: cdee168a51faf92428833c0e0bc515ad, type: 2}
+  - {fileID: 11400000, guid: ee6be6e381351b7478f11d554b4513db, type: 2}
+  - {fileID: 11400000, guid: 63b65c70ac842424093644b0be6f6085, type: 2}
+  - {fileID: 11400000, guid: 50b22a92492645044a64445a49d92d03, type: 2}
 --- !u!1 &505812997
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,11 +2184,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipment: {fileID: 151567994}
   content: {fileID: 1624318529}
-  itemsList:
-  - {fileID: 11400000, guid: cdee168a51faf92428833c0e0bc515ad, type: 2}
-  - {fileID: 11400000, guid: ee6be6e381351b7478f11d554b4513db, type: 2}
-  - {fileID: 11400000, guid: 63b65c70ac842424093644b0be6f6085, type: 2}
-  - {fileID: 11400000, guid: 50b22a92492645044a64445a49d92d03, type: 2}
 --- !u!1 &2105291821
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,29 +6,16 @@ public class InventoryManager : MonoBehaviour
 {
     [SerializeField] EquipmentManager equipment;
     [SerializeField] ContentManager content;
-    [SerializeField] List<Item> itemsList;
 
     void Start(){
         content.returnedItem += CatchItem;
     }
 
-    void Update()
-    {
-        ActivateSetItem();
+    public void ReciveItemToInventory(Item _item){
+        SetItem(_item);
     }
 
-    void ActivateSetItem(){
-        if(Input.GetKeyDown(KeyCode.F)){
-            GenerateItem();
-        }
-    }
-
-    void GenerateItem(){
-        int random = Random.Range(0, itemsList.Count);
-        SetItem(itemsList[random]);
-    }
-
-    public void SetItem(Item _item){
+    void SetItem(Item _item){
         content.SetItemToList(ref _item);
     }
 
