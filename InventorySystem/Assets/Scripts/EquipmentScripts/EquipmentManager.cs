@@ -1,43 +1,49 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class EquipmentManager : MonoBehaviour
 {
-    [SerializeField] ContentManager content;
-    [SerializeField] Button helmet;
-    Item helmetItem;
-    [SerializeField] Button chestplate;
-    Item chestplateItem;
-    [SerializeField] Button boots;
-    Item bootsItem;
-    [SerializeField] Button weapon;
-    Item weaponItem;
+    [SerializeField] InventoryManager inventory;
+    [SerializeField] EquipmentPlace helmet;
+    [SerializeField] EquipmentPlace chestplate;
+    [SerializeField] EquipmentPlace boots;
+    [SerializeField] EquipmentPlace weapon;
+
     void Start()
     {
-        content.returnedItem += ReciveItem;
+        helmet.itemPlace += GetItemToPlace;
+        chestplate.itemPlace += GetItemToPlace;
+        boots.itemPlace += GetItemToPlace;
+        weapon.itemPlace += GetItemToPlace;
     }
 
-    void ReciveItem(ref Item _itemIn){
+    public void ReciveItem(ref Item _itemIn){
         switch (_itemIn.itemType) {
             case Item.ItemType.Weapon:
-                weaponItem = _itemIn;
-                weapon.image.sprite = _itemIn.icon;
+
+                weapon.ChangeData(ref _itemIn);
+
             break;
             case Item.ItemType.Helmet:
-                helmetItem = _itemIn;
-                helmet.image.sprite = _itemIn.icon;
+
+                helmet.ChangeData(ref _itemIn);
+
             break;
             case Item.ItemType.Chestplate:
-                chestplateItem = _itemIn;
-                chestplate.image.sprite = _itemIn.icon;
+
+                chestplate.ChangeData(ref _itemIn);
+
             break;
             case Item.ItemType.Boots:
-                bootsItem = _itemIn;
-                boots.image.sprite = _itemIn.icon;
+
+                boots.ChangeData(ref _itemIn);
+
             break;
         }
     }
 
+    void GetItemToPlace(ref Item _itemIn){
+        inventory.SetItem(_itemIn);
+    }
 }

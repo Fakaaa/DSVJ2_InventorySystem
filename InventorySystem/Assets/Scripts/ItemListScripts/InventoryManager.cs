@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
+    [SerializeField] EquipmentManager equipment;
     [SerializeField] ContentManager content;
     [SerializeField] List<Item> itemsList;
+
+    void Start(){
+        content.returnedItem += CatchItem;
+    }
 
     void Update()
     {
@@ -23,7 +28,11 @@ public class InventoryManager : MonoBehaviour
         SetItem(itemsList[random]);
     }
 
-    void SetItem(Item _item){
+    public void SetItem(Item _item){
         content.SetItemToList(ref _item);
+    }
+
+    void CatchItem(ref Item _itemIn){
+        equipment.ReciveItem(ref _itemIn);
     }
 }

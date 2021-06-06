@@ -212,11 +212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e974d6943c515f440929186fb083e0e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: {fileID: 1624318529}
-  helmet: {fileID: 529986379}
-  chestplate: {fileID: 1473737851}
-  boots: {fileID: 1500780218}
-  weapon: {fileID: 1015430973}
+  inventory: {fileID: 1984852638}
+  helmet: {fileID: 529986382}
+  chestplate: {fileID: 1473737854}
+  boots: {fileID: 1500780221}
+  weapon: {fileID: 1015430976}
 --- !u!1 &155229481
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 529986381}
   - component: {fileID: 529986380}
   - component: {fileID: 529986379}
+  - component: {fileID: 529986382}
   m_Layer: 5
   m_Name: Helmet
   m_TagString: Untagged
@@ -496,6 +497,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529986377}
   m_CullTransparentMesh: 0
+--- !u!114 &529986382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529986377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72238951ef9606945bc415e06fc1e828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultIcon: {fileID: 21300000, guid: c3f56d0c03f14f04a989208b62466998, type: 3}
 --- !u!1 &637722305
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,6 +942,7 @@ GameObject:
   - component: {fileID: 1015430975}
   - component: {fileID: 1015430974}
   - component: {fileID: 1015430973}
+  - component: {fileID: 1015430976}
   m_Layer: 5
   m_Name: Weapon
   m_TagString: Untagged
@@ -1035,6 +1050,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015430971}
   m_CullTransparentMesh: 0
+--- !u!114 &1015430976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015430971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72238951ef9606945bc415e06fc1e828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultIcon: {fileID: 21300000, guid: ce7f536f1e760e34cbb05c6350684590, type: 3}
 --- !u!1 &1148840239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1301,7 @@ GameObject:
   - component: {fileID: 1473737853}
   - component: {fileID: 1473737852}
   - component: {fileID: 1473737851}
+  - component: {fileID: 1473737854}
   m_Layer: 5
   m_Name: Chestplate
   m_TagString: Untagged
@@ -1380,6 +1409,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473737849}
   m_CullTransparentMesh: 0
+--- !u!114 &1473737854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473737849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72238951ef9606945bc415e06fc1e828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultIcon: {fileID: 21300000, guid: 387495913ee1f8e449577ca81314989a, type: 3}
 --- !u!1 &1500780216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,6 +1434,7 @@ GameObject:
   - component: {fileID: 1500780220}
   - component: {fileID: 1500780219}
   - component: {fileID: 1500780218}
+  - component: {fileID: 1500780221}
   m_Layer: 5
   m_Name: Boots
   m_TagString: Untagged
@@ -1499,6 +1542,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500780216}
   m_CullTransparentMesh: 0
+--- !u!114 &1500780221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500780216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72238951ef9606945bc415e06fc1e828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultIcon: {fileID: 21300000, guid: 13e8b8c3c29ddf44a8d2661f75355486, type: 3}
 --- !u!1 &1624318526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,6 +2133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52a6025b4e2207b45872ff68afadceac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  equipment: {fileID: 151567994}
   content: {fileID: 1624318529}
   itemsList:
   - {fileID: 11400000, guid: cdee168a51faf92428833c0e0bc515ad, type: 2}
