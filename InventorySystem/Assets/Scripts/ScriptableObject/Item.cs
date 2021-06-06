@@ -9,12 +9,36 @@ public class Item : ScriptableObject
         Weapon,
         Chestplate,
         Boots,
-        Helmet
+        Helmet,
+        Miscellaneous
     }
+    public enum SubType
+    {
+        Spear,
+        Shield,
+        Sword,
+        LongBow,
+        ShortBow,
+        Maze,
+        Axe,
+        BattleAxe,
+        Knife,
+        Hammer,
+        Iron,
+        Gold,
+        Silver,
+        Copper,
+        Diamond,
+        Leather
+    }
+    public Sprite icon;
     public new string name;
     public ItemType itemType;
+    public SubType subType;
     public string description;
-    public Sprite icon;
-    public float damage;
-    public float armor;
+    public float weight;
+    public float durability;
+    public int levelRequirement;
+    //public float damage;
+    //public float armor;
 }
