@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf0ca139ab398f4a9d12ffe723c1bf5, type: 3}
   m_Name: Iron Chestplate
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 6094424245470002669, guid: 65d833c2a0d7c1b43b3119242b5c2cb7, type: 3}
   name: Iron Chestplate
   itemType: 1
   subType: 10

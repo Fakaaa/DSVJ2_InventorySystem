@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf0ca139ab398f4a9d12ffe723c1bf5, type: 3}
   m_Name: Gold Chestplate
   m_EditorClassIdentifier: 
-  icon: {fileID: 265161451823609389, guid: ac86c6b0e4abb9641878c99c759aa3dd, type: 3}
+  icon: {fileID: 6547389592067187124, guid: 65d833c2a0d7c1b43b3119242b5c2cb7, type: 3}
   name: Gold Chestplate
   itemType: 1
   subType: 10

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf0ca139ab398f4a9d12ffe723c1bf5, type: 3}
   m_Name: Gold Helmet
   m_EditorClassIdentifier: 
-  icon: {fileID: -9101056652045649161, guid: ac86c6b0e4abb9641878c99c759aa3dd, type: 3}
+  icon: {fileID: 4529534478049881619, guid: c6bae082bf742154f9c45344f734fdf7, type: 3}
   name: Gold Helmet
   itemType: 1
   subType: 12

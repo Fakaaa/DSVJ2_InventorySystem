@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf0ca139ab398f4a9d12ffe723c1bf5, type: 3}
   m_Name: Silver Helmet
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c3f56d0c03f14f04a989208b62466998, type: 3}
   name: Silver Helmet
   itemType: 1
   subType: 12

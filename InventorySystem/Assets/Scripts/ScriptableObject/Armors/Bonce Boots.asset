@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf0ca139ab398f4a9d12ffe723c1bf5, type: 3}
   m_Name: Bonce Boots
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 1268732335224535188, guid: c6bae082bf742154f9c45344f734fdf7, type: 3}
   name: Bronce Boots
   itemType: 1
   subType: 11
