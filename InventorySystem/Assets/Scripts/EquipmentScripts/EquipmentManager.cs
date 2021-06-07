@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour
 {
@@ -16,6 +14,13 @@ public class EquipmentManager : MonoBehaviour
         chestplate.itemPlace += GetItemToPlace;
         boots.itemPlace += GetItemToPlace;
         weapon.itemPlace += GetItemToPlace;
+    }
+    private void OnDisable()
+    {
+        helmet.itemPlace -= GetItemToPlace;
+        chestplate.itemPlace -= GetItemToPlace;
+        boots.itemPlace -= GetItemToPlace;
+        weapon.itemPlace -= GetItemToPlace;
     }
 
     public void ReciveItem(ref Item _itemIn){
@@ -39,7 +44,6 @@ public class EquipmentManager : MonoBehaviour
                 }
             break;
         }
-
     }
 
     void GetItemToPlace(ref Item _itemIn){
