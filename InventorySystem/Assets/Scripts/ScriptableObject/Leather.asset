@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a76cb01e7f99514fbf7288e4dea1ed1, type: 3}
   m_Name: Leather
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 3181cab4074510e499b7a43a8da1f351, type: 3}
   name: Leather
   itemType: 4
   subType: 15
