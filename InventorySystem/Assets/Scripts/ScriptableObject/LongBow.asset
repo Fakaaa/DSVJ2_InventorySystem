@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: 0}
   name: Long Bow
   itemType: 0
-  subType: 0
+  subType: 3
   description: Long bow
   weight: 2
   durability: 50

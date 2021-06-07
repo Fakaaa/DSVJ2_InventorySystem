@@ -7,9 +7,7 @@ public class Item : ScriptableObject
 {
     public enum ItemType{
         Weapon,
-        Chestplate,
-        Boots,
-        Helmet,
+        Armor,
         Miscellaneous
     }
     public enum SubType
@@ -24,6 +22,11 @@ public class Item : ScriptableObject
         BattleAxe,
         Knife,
         Hammer,
+
+        Chestplate,
+        Boots,
+        Helmet,
+
         Iron,
         Gold,
         Silver,

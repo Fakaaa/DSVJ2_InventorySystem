@@ -16,7 +16,7 @@ MonoBehaviour:
   name: Spear
   itemType: 0
   subType: 0
-  description: 
+  description: An a spear
   weight: 0.5
   durability: 1
   levelRequirement: 0

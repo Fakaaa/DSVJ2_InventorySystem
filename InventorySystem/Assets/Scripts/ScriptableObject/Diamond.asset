@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
   name: Diamond
-  itemType: 0
+  itemType: 4
   subType: 14
   description: Diamond
   weight: 10

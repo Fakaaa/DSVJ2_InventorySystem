@@ -61,24 +61,67 @@ public class HoverDescription : MonoBehaviour
         itemName.gameObject.SetActive(true);
         itemName.text = itemHover.name;
         itemType.gameObject.SetActive(true);
+        itemSubtype.gameObject.SetActive(true);
+
         switch (itemHover.itemType)
         {
             case Item.ItemType.Weapon:
                 itemType.text = "Type: Weapon";
+                switch (itemHover.subType)
+                {
+                    case Item.SubType.Spear:
+                        itemSubtype.text = "Subtype: Spears";
+                        break;
+                    case Item.SubType.Shield:
+                        itemSubtype.text = "Subtype: Shields";
+                        break;
+                    case Item.SubType.Sword:
+                        itemSubtype.text = "Subtype: Swords";
+                        break;
+                    case Item.SubType.LongBow:
+                        itemSubtype.text = "Subtype: Long Bows";
+                        break;
+                    case Item.SubType.ShortBow:
+                        itemSubtype.text = "Subtype: Short Bows";
+                        break;
+                    case Item.SubType.Maze:
+                        itemSubtype.text = "Subtype: Mazes";
+                        break;
+                    case Item.SubType.Axe:
+                        itemSubtype.text = "Subtype: Axes";
+                        break;
+                    case Item.SubType.BattleAxe:
+                        itemSubtype.text = "Subtype: Heavy Axes";
+                        break;
+                    case Item.SubType.Knife:
+                        itemSubtype.text = "Subtype: Knifes";
+                        break;
+                    case Item.SubType.Hammer:
+                        itemSubtype.text = "Subtype: Hammers";
+                        break;
+                }
                 break;
-            case Item.ItemType.Chestplate:
-                itemType.text = "Type: Chestplate";
-                break;
-            case Item.ItemType.Boots:
-                itemType.text = "Type: Boots";
-                break;
-            case Item.ItemType.Helmet:
-                itemType.text = "Type: Helmet";
+            case Item.ItemType.Armor:
+                itemType.text = "Type: Armor";
+                switch (itemHover.subType)
+                {
+                    case Item.SubType.Chestplate:
+                        itemSubtype.text = "Subtype: Chestplate";
+                        break;
+                    case Item.SubType.Boots:
+                        itemSubtype.text = "Subtype: Boots";
+                        break;
+                    case Item.SubType.Helmet:
+                        itemSubtype.text = "Subtype: Helmet";
+                        break;
+                }
                 break;
         }
-        itemSubtype.gameObject.SetActive(true);
         itemWeight.gameObject.SetActive(true);
+        itemWeight.text = "Weight:"+ itemHover.weight.ToString();
         itemDurability.gameObject.SetActive(true);
+        itemDurability.text = "Durability:"+ itemHover.durability.ToString();
         itemLvlRequirement.gameObject.SetActive(true);
+        itemLvlRequirement.text = "Level Required:"+ itemHover.levelRequirement.ToString();
     }
 }

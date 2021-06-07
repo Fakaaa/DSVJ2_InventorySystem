@@ -33,6 +33,10 @@ public class ItemManager : MonoBehaviour, IPointerClickHandler, IPointerEnterHan
         isMouseHoveringEnter?.Invoke(ref item);
     }
 
+    private void OnDisable()
+    {
+        isMouseHoveringExit?.Invoke();
+    }
     public void OnPointerExit(PointerEventData pointerEventData)
     {
         isMouseHoveringExit?.Invoke();

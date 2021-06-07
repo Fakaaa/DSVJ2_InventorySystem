@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
   name: Shield
-  itemType: 1
+  itemType: 0
   subType: 1
   description: Shield
   weight: 10

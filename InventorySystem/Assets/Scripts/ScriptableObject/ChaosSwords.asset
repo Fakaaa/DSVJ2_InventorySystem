@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a76cb01e7f99514fbf7288e4dea1ed1, type: 3}
   m_Name: ChaosSwords
   m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 02abdb509123a474e8884b11f119f18b, type: 3}
   name: Chaos Swords
   itemType: 0
+  subType: 2
   description: las espadas de kratos papap
-  icon: {fileID: 21300000, guid: 02abdb509123a474e8884b11f119f18b, type: 3}
-  damage: 800
-  armor: 0
+  weight: 7
+  durability: 80
+  levelRequirement: 10

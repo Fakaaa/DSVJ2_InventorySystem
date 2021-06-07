@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a76cb01e7f99514fbf7288e4dea1ed1, type: 3}
   m_Name: MasterSword
   m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 861e7371ee3b67e44825c32bd15827f3, type: 3}
   name: ' Master Sword'
   itemType: 0
+  subType: 2
   description: una espada rotisima
-  icon: {fileID: 21300000, guid: 861e7371ee3b67e44825c32bd15827f3, type: 3}
-  damage: 600
-  armor: 0
+  weight: 5
+  durability: 50
+  levelRequirement: 5
