@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819c6f969d7b3e4a8c83759931668f8, type: 3}
   m_Name: Spear
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: -4484115966303437516, guid: 1f86f01f644e8ad49b532532a83f65a8, type: 3}
   name: Spear
   itemType: 0
   subType: 0

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5819c6f969d7b3e4a8c83759931668f8, type: 3}
-  m_Name: ShortBow
+  m_Name: Gold Sword
   m_EditorClassIdentifier: 
-  icon: {fileID: 2559588308740388981, guid: 1f86f01f644e8ad49b532532a83f65a8, type: 3}
-  name: Short Bow
+  icon: {fileID: -8539663947965080444, guid: 1f86f01f644e8ad49b532532a83f65a8, type: 3}
+  name: Gold Sword
   itemType: 0
-  subType: 4
-  description: Short bow
-  weight: 1
-  durability: 50
-  levelRequirement: 2
-  damage: 50
+  subType: 2
+  description: A simple Gold sword
+  weight: 7
+  durability: 100
+  levelRequirement: 1
+  damage: 80
