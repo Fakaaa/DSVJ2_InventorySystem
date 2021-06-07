@@ -6,6 +6,7 @@ public class HoverDescription : MonoBehaviour
     [SerializeField] GameObject panelHover;
 
     [SerializeField] Image icon;
+    [SerializeField] Image uwu;
     [SerializeField] Text itemName;
     [SerializeField] Text itemType;
     [SerializeField] Text itemSubtype;
@@ -42,6 +43,7 @@ public class HoverDescription : MonoBehaviour
         itemWeight.gameObject.SetActive(false);
         itemDurability.gameObject.SetActive(false);
         itemLvlRequirement.gameObject.SetActive(false);
+        uwu.gameObject.SetActive(false);
     }
     void Update()
     {
@@ -135,5 +137,6 @@ public class HoverDescription : MonoBehaviour
         itemDurability.text = "Durability:"+ itemHover.durability.ToString();
         itemLvlRequirement.gameObject.SetActive(true);
         itemLvlRequirement.text = "Level Required:"+ itemHover.levelRequirement.ToString();
+        uwu.gameObject.SetActive(true);
     }
 }
