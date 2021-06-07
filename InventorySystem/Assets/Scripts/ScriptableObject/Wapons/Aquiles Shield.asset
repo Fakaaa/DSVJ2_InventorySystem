@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5819c6f969d7b3e4a8c83759931668f8, type: 3}
   m_Name: Aquiles Shield
   m_EditorClassIdentifier: 
-  icon: {fileID: 4956198204422622403, guid: 2b3a143e93265d24283dd4bcaa475ec3, type: 3}
+  icon: {fileID: -5957392888598624081, guid: 2b3a143e93265d24283dd4bcaa475ec3, type: 3}
   name: Aquiles Shield
   itemType: 0
   subType: 1
