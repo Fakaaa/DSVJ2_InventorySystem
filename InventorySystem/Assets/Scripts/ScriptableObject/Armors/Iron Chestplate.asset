@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf0ca139ab398f4a9d12ffe723c1bf5, type: 3}
-  m_Name: Aaaa
+  m_Name: Iron Chestplate
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
-  name: aaa
+  name: Iron Chestplate
   itemType: 1
   subType: 10
-  description: aaaaaa
-  weight: 2
-  durability: 3
-  levelRequirement: 5
-  defense: 10
+  description: una pechera lol
+  weight: 200
+  durability: 200
+  levelRequirement: 1
+  defense: 150

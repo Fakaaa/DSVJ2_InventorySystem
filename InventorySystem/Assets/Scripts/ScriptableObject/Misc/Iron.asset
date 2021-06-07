@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
   name: Iron
-  itemType: 4
-  subType: 10
+  itemType: 2
+  subType: 13
   description: Iron
   weight: 10
   durability: 1

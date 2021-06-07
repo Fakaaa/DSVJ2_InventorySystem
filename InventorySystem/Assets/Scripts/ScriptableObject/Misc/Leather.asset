@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
   name: Leather
-  itemType: 4
-  subType: 15
+  itemType: 2
+  subType: 18
   description: Leather
   weight: 2
   durability: 1

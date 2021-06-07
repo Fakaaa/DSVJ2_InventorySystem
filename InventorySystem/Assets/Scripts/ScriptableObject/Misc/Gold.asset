@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
   name: Gold
-  itemType: 4
-  subType: 11
+  itemType: 2
+  subType: 14
   description: Gold
   weight: 10
   durability: 1

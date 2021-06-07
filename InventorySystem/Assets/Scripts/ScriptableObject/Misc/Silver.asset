@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 0}
   name: Silver
-  itemType: 4
-  subType: 12
+  itemType: 2
+  subType: 15
   description: Silver
   weight: 10
   durability: 1
