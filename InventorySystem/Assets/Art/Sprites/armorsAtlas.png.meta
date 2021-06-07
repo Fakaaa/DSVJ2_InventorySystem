@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: 65d833c2a0d7c1b43b3119242b5c2cb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5515443676381228211
+    second: armorsAtlas_0
+  - first:
+      213: 6971689168207650846
+    second: armorsAtlas_1
+  - first:
+      213: -5711834453369261234
+    second: armorsAtlas_2
+  - first:
+      213: 274061242067517679
+    second: armorsAtlas_3
+  - first:
+      213: 7638183961672740119
+    second: armorsAtlas_4
+  - first:
+      213: 2248236264335181351
+    second: armorsAtlas_5
+  - first:
+      213: -699929266758869172
+    second: armorsAtlas_6
+  - first:
+      213: 416616390717404976
+    second: armorsAtlas_7
+  - first:
+      213: 7798265129437201141
+    second: armorsAtlas_8
+  - first:
+      213: 5123899666050094763
+    second: armorsAtlas_9
+  - first:
+      213: -840277943547371093
+    second: armorsAtlas_10
+  - first:
+      213: 6094424245470002669
+    second: armorsAtlas_11
+  - first:
+      213: -4588424104995833880
+    second: armorsAtlas_12
+  - first:
+      213: 6834777235576728789
+    second: armorsAtlas_13
+  - first:
+      213: 6073812247262306373
+    second: armorsAtlas_14
+  - first:
+      213: 8039754629399330898
+    second: armorsAtlas_15
+  - first:
+      213: 6547389592067187124
+    second: armorsAtlas_16
+  - first:
+      213: 6091480702580021921
+    second: armorsAtlas_17
+  - first:
+      213: -1543115114024916673
+    second: armorsAtlas_18
+  - first:
+      213: -7642433078258298799
+    second: armorsAtlas_19
+  - first:
+      213: -1312640611735114624
+    second: armorsAtlas_20
+  - first:
+      213: 381329274650141040
+    second: armorsAtlas_21
+  - first:
+      213: -2718672571400030084
+    second: armorsAtlas_22
+  - first:
+      213: 6565471489294026594
+    second: armorsAtlas_23
+  - first:
+      213: -549192438069870802
+    second: armorsAtlas_24
+  - first:
+      213: -5087509519576406729
+    second: armorsAtlas_25
+  - first:
+      213: -479794869122792086
+    second: armorsAtlas_26
+  - first:
+      213: 906613588067240436
+    second: armorsAtlas_27
+  - first:
+      213: -3881594647628672458
+    second: armorsAtlas_28
+  - first:
+      213: -4418926010977440016
+    second: armorsAtlas_29
+  - first:
+      213: 5059163494995899818
+    second: armorsAtlas_30
+  - first:
+      213: 7082120276823232522
+    second: armorsAtlas_31
+  - first:
+      213: -863498722309484828
+    second: armorsAtlas_32
+  - first:
+      213: -8364289915987822147
+    second: armorsAtlas_33
+  - first:
+      213: 5146929462552581774
+    second: armorsAtlas_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: armorsAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 645
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d435f9ac2353573b0800000000000000
+      internalID: -5515443676381228211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 644
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a4736c5a60c060800000000000000
+      internalID: 6971689168207650846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 645
+        width: 107
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e437617c3dc7bb0b0800000000000000
+      internalID: -5711834453369261234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 635
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe003246f39adc300800000000000000
+      internalID: 274061242067517679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 645
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71de69428d7400a60800000000000000
+      internalID: 7638183961672740119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 635
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72689d288f6533f10800000000000000
+      internalID: 2248236264335181351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 521
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f10fe4a0a5946f0800000000000000
+      internalID: -699929266758869172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 520
+        width: 99
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037f058666e18c500800000000000000
+      internalID: 416616390717404976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 520
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f28b6871d0093c60800000000000000
+      internalID: 7798265129437201141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 521
+        width: 107
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba698a3499fbb1740800000000000000
+      internalID: 5123899666050094763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 510
+        width: 99
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1634e89abb654f0800000000000000
+      internalID: -840277943547371093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 397
+        width: 103
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded74c5cf8eb39450800000000000000
+      internalID: 6094424245470002669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 394
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e732e64694a250c0800000000000000
+      internalID: -4588424104995833880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 390
+        width: 98
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2a7dfea10ade50800000000000000
+      internalID: 6834777235576728789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 397
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540ac76fe048a4450800000000000000
+      internalID: 6073812247262306373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 399
+        width: 101
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25046ae2d32f29f60800000000000000
+      internalID: 8039754629399330898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 396
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b12149f4200dda50800000000000000
+      internalID: 6547389592067187124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 274
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aadd69cc69498450800000000000000
+      internalID: 6091480702580021921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 268
+        width: 107
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f392205caf0c59ae0800000000000000
+      internalID: -1543115114024916673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 270
+        width: 103
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15018be4b9f90f590800000000000000
+      internalID: -7642433078258298799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 273
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ce6cb715098cde0800000000000000
+      internalID: -1312640611735114624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 274
+        width: 101
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071aaf574f0ca4500800000000000000
+      internalID: 381329274650141040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 150
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c787a1153b5554ad0800000000000000
+      internalID: -2718672571400030084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 150
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267435eb88d3d1b50800000000000000
+      internalID: 6565471489294026594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 150
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fb3872360e068f0800000000000000
+      internalID: -549192438069870802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 150
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735ea36fb098569b0800000000000000
+      internalID: -5087509519576406729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 152
+        width: 95
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6581eccb1d6759f0800000000000000
+      internalID: -479794869122792086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 139
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f94a414140f49c00800000000000000
+      internalID: 906613588067240436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 26
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632190acb3ec12ac0800000000000000
+      internalID: -3881594647628672458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 28
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fea4fa9432dca2c0800000000000000
+      internalID: -4418926010977440016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 12
+        width: 98
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5bad3e462c53640800000000000000
+      internalID: 5059163494995899818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 21
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d3ac7edeb84260800000000000000
+      internalID: 7082120276823232522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 21
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee4db0bc7c3404f0800000000000000
+      internalID: -863498722309484828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 55
+        width: 96
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9f92723a21ceb80800000000000000
+      internalID: -8364289915987822147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armorsAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 12
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86507b93119d6740800000000000000
+      internalID: 5146929462552581774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 58a9b4bb3f3fd484194ed57f85745b75
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

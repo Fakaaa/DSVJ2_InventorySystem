@@ -6,12 +6,14 @@ public class HoverDescription : MonoBehaviour
     [SerializeField] GameObject panelHover;
 
     [SerializeField] Image icon;
+    [SerializeField] Image uwu;
     [SerializeField] Text itemName;
     [SerializeField] Text itemType;
     [SerializeField] Text itemSubtype;
     [SerializeField] Text itemWeight;
     [SerializeField] Text itemDurability;
     [SerializeField] Text itemLvlRequirement;
+    [SerializeField] Text itemPropierty;
     private Vector3 mousePosition;
     [SerializeField] private float offsetMouseToPanel;
 
@@ -37,9 +39,11 @@ public class HoverDescription : MonoBehaviour
         itemName.gameObject.SetActive(false);
         itemType.gameObject.SetActive(false);
         itemSubtype.gameObject.SetActive(false);
+        itemPropierty.gameObject.SetActive(false);
         itemWeight.gameObject.SetActive(false);
         itemDurability.gameObject.SetActive(false);
         itemLvlRequirement.gameObject.SetActive(false);
+        uwu.gameObject.SetActive(false);
     }
     void Update()
     {
@@ -49,8 +53,6 @@ public class HoverDescription : MonoBehaviour
             panelHover.transform.position = new Vector2(mousePosition.x - (transformPanel.rect.xMax * offsetMouseToPanel), mousePosition.y + (transformPanel.rect.yMin * offsetMouseToPanel));
         else if(mousePosition.y < (Screen.height / 2))
             panelHover.transform.position = new Vector2(mousePosition.x - (transformPanel.rect.xMax * offsetMouseToPanel), mousePosition.y + (transformPanel.rect.yMax * offsetMouseToPanel));
-
-        Debug.Log(mousePosition);
     }
 
     public void ActivatePanel(ref Item itemHover)
@@ -62,6 +64,18 @@ public class HoverDescription : MonoBehaviour
         itemName.text = itemHover.name;
         itemType.gameObject.SetActive(true);
         itemSubtype.gameObject.SetActive(true);
+        itemPropierty.gameObject.SetActive(true);
+
+        if (itemHover is ItemWeapon)
+        {
+            ItemWeapon downCast = (ItemWeapon)itemHover;
+            itemPropierty.text = "Damage:" + downCast.damage.ToString();
+        }
+        else if(itemHover is ItemArmor)
+        {
+            ItemArmor downCast = (ItemArmor)itemHover;
+            itemPropierty.text = "Defense:" + downCast.defense.ToString();
+        }    
 
         switch (itemHover.itemType)
         {
@@ -123,5 +137,6 @@ public class HoverDescription : MonoBehaviour
         itemDurability.text = "Durability:"+ itemHover.durability.ToString();
         itemLvlRequirement.gameObject.SetActive(true);
         itemLvlRequirement.text = "Level Required:"+ itemHover.levelRequirement.ToString();
+        uwu.gameObject.SetActive(true);
     }
 }
