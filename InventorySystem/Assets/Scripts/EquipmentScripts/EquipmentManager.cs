@@ -24,7 +24,7 @@ public class EquipmentManager : MonoBehaviour
     }
 
     public void ReciveItem(ref Item _itemIn){
-        if(_itemIn.itemType != Item.ItemType.Armor || _itemIn.itemType != Item.ItemType.Weapon){
+        if(_itemIn.itemType == Item.ItemType.Miscellaneous){
             inventory.ReciveItemToInventory(_itemIn);
         }
         else{
