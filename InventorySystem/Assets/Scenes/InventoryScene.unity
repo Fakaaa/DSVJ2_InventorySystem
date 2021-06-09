@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -411,6 +411,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bda0b231310e3334d80d395c0fffdcc7, type: 2}
   - {fileID: 11400000, guid: 6f4c7cbd531595948a8c9afa992b33e5, type: 2}
   - {fileID: 11400000, guid: 112a4db76c720294aa3a6e237d1ebadf, type: 2}
+  - {fileID: 11400000, guid: 718fe4321c9e8bc42b7e1a91364b6a0f, type: 2}
+  - {fileID: 11400000, guid: 3319cd102fa4b924190f137b80c8e2ec, type: 2}
+  - {fileID: 11400000, guid: 04c853226fed11a4fbeb1c9ccc89aae9, type: 2}
+  - {fileID: 11400000, guid: 777a655b33e90a84782f51e46adc5a9a, type: 2}
+  - {fileID: 11400000, guid: 315a1b91d8880014ebec2e879d32e365, type: 2}
+  - {fileID: 11400000, guid: 7d9103364ceeed242b94dba67ba8b726, type: 2}
 --- !u!1 &412500623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,7 +2283,7 @@ MonoBehaviour:
   itemOfInstanciate: {fileID: 1745666332407335112, guid: 0aee2b9a6d498d14097ee424914f12a9,
     type: 3}
   itemList: []
-  persistData: 1
+  persistData: 0
 --- !u!1 &1631277553
 GameObject:
   m_ObjectHideFlags: 0

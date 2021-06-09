@@ -39,7 +39,7 @@ public class EquipmentPlace : MonoBehaviour, IPointerClickHandler
             itemAtPlace = _itemIn;
             itemPlaceButton.image.sprite = _itemIn.icon;
         }
-        else if (itemAtPlace == _itemIn)
+        else if (_itemIn == itemAtPlace)
         {
             itemPlace?.Invoke(ref _itemIn);
         }

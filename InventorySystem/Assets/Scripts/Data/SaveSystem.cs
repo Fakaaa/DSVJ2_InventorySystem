@@ -11,7 +11,7 @@ public class SaveSystem : MonoBehaviour
     public static void SaveItem(Item item, int index)
     {
         string jsonData = JsonUtility.ToJson(item);
-        Debug.Log("data" + jsonData);
+        //Debug.Log("data" + jsonData);
         PlayerPrefs.SetString("inventoryData" + index.ToString(), jsonData);
         cantOfIterations = index+1;
         PlayerPrefs.SetInt("amountItemsSaved", cantOfIterations);
@@ -19,9 +19,9 @@ public class SaveSystem : MonoBehaviour
 
     public static void LoadItem(Item item, int index)
     {
-        Debug.Log(index);
+        //Debug.Log(index);
         string jsonData = PlayerPrefs.GetString("inventoryData" + index.ToString());
-        Debug.Log(jsonData);
+        //Debug.Log(jsonData);
         JsonUtility.FromJsonOverwrite(jsonData, item);
     }
 

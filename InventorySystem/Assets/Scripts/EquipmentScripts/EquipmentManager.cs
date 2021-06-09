@@ -24,25 +24,29 @@ public class EquipmentManager : MonoBehaviour
     }
 
     public void ReciveItem(ref Item _itemIn){
-
-        switch (_itemIn.itemType) {
-            case Item.ItemType.Weapon:
-                weapon.ChangeData(ref _itemIn);
-            break;
-            case Item.ItemType.Armor:
-                switch (_itemIn.subType)
-                {
-                    case Item.SubType.Chestplate:
-                        chestplate.ChangeData(ref _itemIn);
-                        break;
-                    case Item.SubType.Boots:
-                        boots.ChangeData(ref _itemIn);
-                        break;
-                    case Item.SubType.Helmet:
-                        helmet.ChangeData(ref _itemIn);
-                        break;
-                }
-            break;
+        if(_itemIn.itemType != Item.ItemType.Armor || _itemIn.itemType != Item.ItemType.Weapon){
+            inventory.ReciveItemToInventory(_itemIn);
+        }
+        else{
+            switch (_itemIn.itemType) {
+                case Item.ItemType.Weapon:
+                    weapon.ChangeData(ref _itemIn);
+                break;
+                case Item.ItemType.Armor:
+                    switch (_itemIn.subType)
+                    {
+                        case Item.SubType.Chestplate:
+                            chestplate.ChangeData(ref _itemIn);
+                            break;
+                        case Item.SubType.Boots:
+                            boots.ChangeData(ref _itemIn);
+                            break;
+                        case Item.SubType.Helmet:
+                            helmet.ChangeData(ref _itemIn);
+                            break;
+                    }
+                break;
+            }
         }
     }
 
