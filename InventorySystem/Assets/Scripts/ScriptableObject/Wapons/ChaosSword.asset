@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ChaosSword
   m_EditorClassIdentifier: 
   icon: {fileID: -8445943245865454757, guid: 1f86f01f644e8ad49b532532a83f65a8, type: 3}
-  name: Chaos Swords
+  name: Chaos Sword
   itemType: 0
   subType: 2
   description: las espadas de kratos papap

@@ -6,14 +6,34 @@ public class ContentManager : MonoBehaviour
     [SerializeField] ItemManager itemOfInstanciate;
     public List<ItemManager> itemList;
 
+    [SerializeField] public bool persistData;
+
     public delegate void ReturnedItem(ref Item _item);
     public ReturnedItem returnedItem;
 
-    void Start(){
-        itemList = new List<ItemManager>();
+    private Item dataLoaded = null;
+
+    private void Awake()
+    {
+        if (!persistData)
+            SaveSystem.ResetAllData();
     }
 
-    public void SetItemToList(ref Item _item){
+    void Start() {
+        itemList = new List<ItemManager>();
+        dataLoaded = new Item();
+        if(persistData)
+        {
+            Debug.Log("entro");
+            for(int i = 0; i < SaveSystem.GetPreviusCountItemsSaved(); i++)
+            {
+                SaveSystem.LoadItem(dataLoaded, i);
+                SetItemToList(dataLoaded);
+            }
+        }
+    }
+
+    public void SetItemToList(Item _item){
         itemList.Add(Instantiate(itemOfInstanciate, new Vector3(0f, 0f, 0f), Quaternion.identity, transform));
         for(int i = 0; i < itemList.Count; i++){
             if(!itemList[i].imSetItem){
@@ -35,6 +55,26 @@ public class ContentManager : MonoBehaviour
                 itemList.Remove(itemList[i]);
                 break;
             }
+        }
+    }
+
+    public List<Item> CatchItemList()
+    {
+        List<Item> _items = new List<Item>();
+        for (int i = 0; i < itemList.Count; i++)
+        {
+            _items.Add(itemList[i].item);
+        }
+        return _items;
+    }
+
+    private void OnDisable()
+    {
+        //SaveSystem.SaveItem(CatchItemList());
+        for(int i = 0; i < itemList.Count; i++)
+        {
+            SaveSystem.SaveItem(itemList[i].item, i);
+            Debug.Log("name " + itemList[i].name);
         }
     }
 }
