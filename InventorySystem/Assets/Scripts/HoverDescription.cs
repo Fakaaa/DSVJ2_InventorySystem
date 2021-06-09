@@ -75,7 +75,11 @@ public class HoverDescription : MonoBehaviour
         {
             ItemArmor downCast = (ItemArmor)itemHover;
             itemPropierty.text = "Defense:" + downCast.defense.ToString();
-        }    
+        }
+        else
+        {
+            itemPropierty.text = "Value:" + itemHover.weight * itemHover.levelRequirement;
+        }
 
         switch (itemHover.itemType)
         {
@@ -127,6 +131,30 @@ public class HoverDescription : MonoBehaviour
                         break;
                     case Item.SubType.Helmet:
                         itemSubtype.text = "Subtype: Helmet";
+                        break;
+                }
+                break;
+            case Item.ItemType.Miscellaneous:
+                itemType.text = "Type: Miscellaneous";
+                switch (itemHover.subType)
+                {
+                    case Item.SubType.Iron:
+                        itemSubtype.text = "Subtype: Iron";
+                        break;
+                    case Item.SubType.Gold:
+                        itemSubtype.text = "Subtype: Gold";
+                        break;
+                    case Item.SubType.Silver:
+                        itemSubtype.text = "Subtype: Silver";
+                        break;
+                    case Item.SubType.Copper:
+                        itemSubtype.text = "Subtype: Copper";
+                        break;
+                    case Item.SubType.Diamond:
+                        itemSubtype.text = "Subtype: Diamond";
+                        break;
+                    case Item.SubType.Leather:
+                        itemSubtype.text = "Subtype: Leather";
                         break;
                 }
                 break;
