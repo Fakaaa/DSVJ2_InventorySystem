@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -393,7 +393,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 163317af1402f32459f2e9c2da6f1c45, type: 2}
   - {fileID: 11400000, guid: 0aec93814fc3fcc44acfd5f8e977170a, type: 2}
   - {fileID: 11400000, guid: 060eadf947fe4f140bc167aca2d44f66, type: 2}
-  - {fileID: 11400000, guid: d1264c10b549a274b9fd280a7eac0928, type: 2}
   - {fileID: 11400000, guid: cb8f65c9731a1114d97c75e3e306bb06, type: 2}
   - {fileID: 11400000, guid: 2991f48c77acae145aec5a10f64e5854, type: 2}
   - {fileID: 11400000, guid: 8bfabe30c238fc4418f7d8a59ea0b758, type: 2}
@@ -2278,6 +2277,7 @@ MonoBehaviour:
   itemOfInstanciate: {fileID: 1745666332407335112, guid: 0aee2b9a6d498d14097ee424914f12a9,
     type: 3}
   itemList: []
+  persistData: 1
 --- !u!1 &1631277553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,7 +2474,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1190904465}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.0030499997
+  m_Size: 0.00305
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2949,7 +2949,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 30
   m_Viewport: {fileID: 917742623}
   m_HorizontalScrollbar: {fileID: 155229483}
   m_VerticalScrollbar: {fileID: 1721069983}

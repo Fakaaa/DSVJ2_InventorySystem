@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Copper
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: ffaec5130f3ac744f99bcf60c8dfcc62, type: 3}
-  name: Cobre
+  name: Copper
   itemType: 2
   subType: 16
   description: Copper

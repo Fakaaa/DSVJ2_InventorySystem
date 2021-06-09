@@ -16,7 +16,7 @@ public class InventoryManager : MonoBehaviour
     }
 
     void SetItem(Item _item){
-        content.SetItemToList(ref _item);
+        content.SetItemToList(_item);
     }
 
     void CatchItem(ref Item _itemIn){
