@@ -1,8 +1,4 @@
 ﻿using UnityEngine;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
-using UnityEditor.Experimental.RestService;
-using System.Collections.Generic;
 
 public class SaveSystem : MonoBehaviour
 {
